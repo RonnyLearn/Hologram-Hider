@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "net.example.hider.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ArmorStandTextMixin",
+		"ClientPacketListenerMixin",
+		"HudMixin",
+		"MobNameMixin",
+		"TextDisplayMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

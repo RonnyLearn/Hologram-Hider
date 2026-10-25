@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+clientSideOnly=true
+
+[[mods]]
+modId="hologram_hider"
+version="${version}"
+displayName="Hologram Hider"
+authors="RonnyLearn"
+description='''Hides armor stand hologram text, mob names and text displays on the client.'''
+
+[[dependencies.hologram_hider]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.hologram_hider]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="CLIENT"

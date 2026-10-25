@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.example.hider.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"client": [
+		"ArmorStandTextMixin",
+		"ChatCommandMixin",
+		"HudMixin",
+		"MobNameMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

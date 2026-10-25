@@ -1,0 +1,12 @@
+[{
+	"modid": "hologram_hider",
+	"name": "Hologram Hider",
+	"version": "${version}",
+	"mcversion": "1.12.2",
+	"description": "Hides hologram armor stand names, and optionally mob name tags, on your client.",
+	"authorList": ["RonnyLearn"],
+	"credits": "",
+	"url": "",
+	"updateJSON": "",
+	"logoFile": ""
+}]

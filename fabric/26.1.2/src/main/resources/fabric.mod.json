@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "hologram_hider",
+	"version": "${version}",
+	"name": "Hologram Hider",
+	"description": "Hides armor stand hologram text on the client.",
+	"authors": [
+		"RonnyLearn"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.example.hider.HologramHiderMod"
+		]
+	},
+	"mixins": [
+		{
+			"config": "hologram_hider.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"fabric-api": "*",
+		"minecraft": "26.1.2",
+		"java": ">=25"
+	}
+}
