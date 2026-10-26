@@ -1,35 +1,39 @@
 # Hologram Hider
 
-Клиентский мод для Minecraft. Скрывает голограммы на серверах: надписи над невидимыми стойками для брони, а по желанию ещё имена мобов и текстовые дисплеи. Всё работает только у тебя на клиенте, серверу ничего не отправляется.
+A client-side Minecraft mod that hides holograms on servers: the floating text of invisible armor stands, and optionally mob name tags and text displays. Everything happens on your client only, nothing is sent to the server.
 
-## Управление
+## Controls
 
-| Клавиша | Действие |
+| Key | Action |
 |---|---|
-| H | Скрыть / показать голограммы |
-| J | Скрыть / показать имена мобов |
-| K | Скрыть / показать текстовые дисплеи (с 1.19.4) |
-| Left Alt (зажать) | Временно показать всё |
+| H | Hide / show holograms |
+| J | Hide / show mob names |
+| K | Hide / show text displays (1.19.4+) |
+| Left Alt (hold) | Show everything while held |
 
-Клавиши можно переназначить в настройках управления.
+Keys can be changed in the Controls settings.
 
-## Команды
+## Commands
 
-| Команда | Что делает |
+| Command | What it does |
 |---|---|
-| `/hl toggle` | То же, что H |
-| `/hl mobs` | То же, что J |
-| `/hl displays` | То же, что K |
-| `/hl main mobs` | H будет скрывать и имена мобов |
-| `/hl main displays` | H будет скрывать и текстовые дисплеи |
-| `/hl info` | Текущие настройки |
-| `/hl nearby` | Сколько голограмм рядом |
-| `/hl sound` | Включить / выключить звук переключения |
-| `/hl help` | Список команд |
+| `/hl toggle` | Same as H |
+| `/hl mobs` | Same as J |
+| `/hl displays` | Same as K |
+| `/hl main mobs` | Make H hide mob names too |
+| `/hl main displays` | Make H hide text displays too |
+| `/hl info` | Current settings |
+| `/hl nearby` | How many holograms are nearby |
+| `/hl sound` | Turn the toggle sound on / off |
+| `/hl help` | List of commands |
 
-## Исходный код
+## Download
 
-Каждая папка — отдельный Gradle-проект под свою версию игры и загрузчик.
+Get the mod from the official page: [modrinth.com/mod/hologram-hider](https://modrinth.com/mod/hologram-hider)
+
+## Source code
+
+Each folder is a separate Gradle project for its game version and mod loader.
 
 | Minecraft | Fabric | Forge |
 |---|---|---|
@@ -51,10 +55,10 @@
 | 1.16.5 | [fabric/1.16.5](fabric/1.16.5) | [forge/1.16.5](forge/1.16.5) |
 | 1.12.2 | [fabric/1.12.2](fabric/1.12.2) | [forge/1.12.2](forge/1.12.2) |
 
-Для 1.12.2 версия Fabric сделана на Legacy Fabric. Fabric-версиям нужен Fabric API.
+The 1.12.2 Fabric version is built on Legacy Fabric. Fabric versions require Fabric API.
 
-Сборка: `gradlew build` в папке нужной версии, готовый файл появится в `build/libs`.
+To build, run `gradlew build` in the folder of the version you need. The jar appears in `build/libs`.
 
-## Лицензия
+## License
 
-Все права защищены. Подробности в [LICENSE](LICENSE).
+All rights reserved. See [LICENSE](LICENSE).
